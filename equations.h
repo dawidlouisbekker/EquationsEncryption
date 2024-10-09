@@ -22,12 +22,12 @@ public:
 			return  a * pow(x, 2) + b * x + c;
 		}
 		if (EquationContext == "11") {
-			return (a * b * pow(x,3)) + c;
+			return (a * b * pow(x, 3)) + c;
 		}
 		if (EquationContext == "10") {
 			return x*b - c + a;
 		}
-
+		return 0.0;
 
 	}
 
